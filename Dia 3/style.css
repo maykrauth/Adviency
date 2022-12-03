@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fondoImagen{
+object-fit: cover;
+position:fixed;
+}
+h1{
+    color: rgb(164, 26, 26);
+}
+.container{
+    margin: auto;
+    height: 140vh;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 80vw;
+}
+.list-group{
+    display: flex;
+    cursor: pointer;
+    opacity: 0.75;
+}
+.list-group:hover{
+    opacity: 1;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60vw;
+}
